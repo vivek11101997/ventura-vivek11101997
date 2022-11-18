@@ -1,0 +1,34 @@
+.bottomTextWrap{
+    text-align: center;
+    color: #191442;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    margin-bottom: 17px;
+    margin-top: 32px;
+    position: absolute;
+    bottom: 20px;
+}
+
+.bottomTextWrap .txtInfo{
+    margin: 0;
+    font-size: 14px;
+    line-height: 140%;
+}
+
+.bottomTextWrap .txtLink{
+    color: #f47a44;
+    font-family: "sorabold";
+    font-size: 14px;
+}
+
+@media screen and (max-height: 600px) and (orientation: landscape) {
+    .bottomTextWrap{
+        position: relative;
+        bottom: 0;
+        padding-bottom: 20px;
+        margin-bottom: 0;
+    }
+}
+
+

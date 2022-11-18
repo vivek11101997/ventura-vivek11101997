@@ -1,0 +1,10 @@
+.setUpPinWrap{
+    position: relative;
+}
+.setUpPinWrap .enterOTP .otp,
+.setUpPinWrap .enterOTP > [class^="col-"] input{
+    max-width: 96px;
+}
+.setUpPinWrap .enterOTP p.subTitle{
+    margin: 0;
+}

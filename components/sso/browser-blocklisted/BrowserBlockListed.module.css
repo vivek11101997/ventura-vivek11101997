@@ -1,0 +1,73 @@
+.RememberList{
+    background: #F8F8F8;
+    border-radius: 12px;
+    padding: 20px 16px 20px 20px;
+    display: flex;
+    flex-flow: column;
+    margin-bottom: 17px;
+    text-align: left;
+}
+.RememberList .ListTitle{
+    font-size: 16px;
+    line-height: 22px;
+    margin: 0 0 24px 0;
+    color: #191442;
+}
+
+.ListText{
+    color: #6b6874;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 19px;
+    margin-bottom: 16px;
+    margin-top: 0;
+}
+
+.ListText:last-of-type{
+    margin-bottom: 0;
+}
+
+.blockedWrap{
+    position: relative;
+}
+.blockedWrap .desc{
+    padding: 0 24px;
+    line-height: 22px;
+}
+.blockedIcon{
+    height: 80px;
+    width: 80px;
+    background: #FF524B;
+    border-radius: 20px;
+    color: #fff;
+    font-size: 33px;
+    display: inline-flex;
+    justify-content:center;
+    align-items: center;
+    margin-bottom: 32px;
+}
+.blockedIcon .colorWhite,
+.blockedIcon .colorWhite:before{
+    color: #fff !important;
+}
+
+.ListText .iconWrap{
+    position: relative;
+    padding: 6px;
+    width: 32px;
+    height: 32px;
+    background: #E2DEFF;
+    border-radius: 8px;
+    display: inline-flex;
+    margin-right: 16px;
+    text-align: center;
+    position: relative;
+    top: 3px;
+}
+.ListText .iconWrap .iconStyle{
+    margin: 0 auto;
+    line-height: 22px
+}
+.ListText .iconWrap .iconStyle:before{
+    color: #292D32;
+}

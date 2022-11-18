@@ -1,0 +1,69 @@
+.errorContainer{
+    background-color: #ffff;
+}
+.alertImg{
+    display: block;
+    margin: 0 auto;
+}
+.alertTitle{
+    font-size: 24px;
+    line-height: 34px;
+    font-weight: 600;
+    color:  #191442;
+    margin-bottom: 16px;
+    text-align: center;
+}
+.alertSubTitle{
+    color:  #6B6874;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+}
+.fatcaPara{
+    height: 300px;
+    -ms-overflow-style: none; /* for Internet Explorer, Edge */
+    scrollbar-width: none; /* for Firefox */
+    overflow-y: scroll; 
+}
+
+.warningContainer{
+    text-align: center;
+}
+.warningContainer h6{
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+    color: #FF524B;
+    margin-bottom: 8px;
+}
+
+.warningContainer p{
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    color: #5C5968;
+}
+.signBtn{
+    margin-top: 16px;
+    text-align: center;
+
+}
+.signBtn .existingUser{
+    color: #191442 !important;
+    margin-right: 10px;
+}
+.signBtn a{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #FF844B;
+}
+/* Fatca Container */
+.fatcaBtnContainer{
+    width: 60%;
+    margin: 0 auto;
+}
+
+
+

@@ -1,0 +1,269 @@
+.outerWrap {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.innerWrap {
+  width: 50%;
+}
+.previewWrap {
+  position: relative;
+  border: 1px solid #e0dfe7;
+  border-radius: 12px;
+  padding: 20px;
+  background: #fff;
+  box-shadow: 0px 4px 16px -8px rgba(45, 43, 64, 0.12);
+  margin: 0 0 20px;
+}
+.innerWrap:first-of-type .previewWrap {
+  margin-right: 10px;
+}
+.innerWrap:last-of-type .previewWrap {
+  margin-left: 10px;
+}
+
+.previewWrap.fullWidth {
+  width: 100%;
+}
+
+.previewWrap .title {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  color: #191442;
+  padding-bottom: 16px;
+  margin: 0;
+}
+
+.previewWrap .btnLInk {
+  position: absolute;
+  right: 0;
+  top: 20px;
+  right: 20px;
+}
+
+.listWrap {
+  position: relative;
+}
+.listWrap .list {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 16px;
+  background: #f8f8f8;
+  border-radius: 12px;
+  width: 100%;
+  margin-bottom: 10px;
+}
+.listWrap .list:last-of-type {
+  margin-bottom: 0;
+}
+.listWrap .list label {
+  color: #6b6874;
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.listWrap .list span {
+  font-weight: 600;
+  font-size: 14px;
+  color: #191442;
+}
+
+.chkSegment {
+  background: #f8f8f8;
+  border-radius: 12px;
+  padding: 10px 16px;
+  display: flex;
+  position: relative;
+}
+
+.chkSegment .title {
+  font-weight: 600;
+  font-size: 16px;
+  color: #191442;
+  padding-top: 12px;
+  padding-left: 12px;
+  font-weight: 600;
+}
+
+.chkSegment .iconWrap {
+  display: block;
+  height: 40px;
+  width: 40px;
+
+  border-radius: 50%;
+  line-height: 47px;
+  text-align: center;
+}
+.chkSegment .iconWrap span {
+  font-size: 20px;
+}
+
+.chkSegment.typeEquity .iconWrap {
+  background: #41c977;
+}
+.chkSegment.typeMutualFund .iconWrap {
+  background: #7260e2;
+}
+.chkSegment.typeFutureOption .iconWrap {
+  background: #2f2f6b;
+}
+
+/*nominee details*/
+.previewWrap.nomineeDetailsBox {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.previewWrap.nomineeDetailsBox h2 {
+  width: 100%;
+}
+.previewWrap.nomineeDetailsBox .NomineeList_nomineeCard {
+  /* width: 50%; */
+  flex: 0 0 50%;
+}
+
+.previewWrap .aadharDetailsBox {
+}
+
+.upDocListWrap {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: start;
+}
+
+
+.upDocList {
+  width: 113px;
+  height: 113px;
+  border-radius: 12px;
+  background: #ccc;
+  margin: 0 8px;
+  position: relative;
+  /* display: inline-block; */
+  overflow: hidden;
+  align-items: center;
+  display: flex;
+}
+.upDocList img {
+  width: 100%;
+}
+.upDocList:first-of-type {
+  margin-left: 0;
+}
+.upDocList:last-of-type {
+  margin-right: 0;
+}
+.editArrow {
+  display: inline-block;
+  top: 0px;
+  position: relative;
+  font-size: 10px;
+  padding-left: 10px;
+}
+
+.btnEditPD {
+  color: #ff844b;
+  background: none;
+  border: none;
+  position: absolute;
+  font-weight: 600;
+  font-size: 14px;
+  top: 20px;
+  right: 20px;
+}
+.btnEdit {
+  position: absolute;
+  right: 8px;
+  top: 8px;
+  width: 40px;
+  height: 40px;
+  background: #ff844b;
+  box-shadow: 0px 4px 8px -2px rgba(45, 43, 64, 0.16);
+  border-radius: 8px;
+  outline: none;
+  border: 0;
+}
+
+.esignBtn {
+  width: 390px;
+  margin: auto;
+}
+.btnPreview {
+  position: relative;
+  display: inline-block;
+  margin: auto;
+  padding: 16px 0;
+  font-weight: 600;
+  color: #ff844b;
+  background: none;
+  border: none;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+
+@media screen and (max-width: 991px) {
+  
+  .innerWrap{
+    width: 100%;
+  }
+  .esignBtn {
+    width: 100%;
+  }
+  .previewWrap{
+    padding: 15px;
+    margin-bottom: 15px;
+  }
+  .upDocList:first-of-type {
+    margin-left: 5px;
+  }
+  .upDocList:last-of-type {
+    margin-right: 5px;
+  }
+  .innerWrap:first-of-type .previewWrap {
+    margin-right: 0;
+  }
+  .innerWrap:last-of-type .previewWrap {
+    margin-left: 0;
+  }
+  .upDocList{
+    margin: 5px;
+  }
+  .chkSegment:last-of-type{
+    margin-bottom: 0;
+  }
+}
+
+@media screen and (max-width:767px) {
+  .btnEdit {
+    width: 34px;
+    height: 34px;
+    border-radius: 5px;
+  }
+  .upDocList{
+    width: 46%;
+    height: auto;
+  }
+}
+
+.btn {
+  color: #ff844b;
+  top: 20px;
+  background: none;
+  border: none;
+  position: absolute;
+  right: 25px;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.editArrow{
+  display: inline-block;
+  top: 0px;
+  position: relative;
+  font-size: 10px;
+  padding-left: 10px;
+}

@@ -1,0 +1,104 @@
+.note {
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 16px;
+  color: #5c5968;
+  background: linear-gradient(180deg, #f8f8f8 0%, rgba(248, 248, 248, 0) 100%);
+  border-radius: 12px;
+  padding: 16px;
+  position: relative;
+  padding-left: 34px;
+  margin-bottom: 10px;
+  margin-top: 24px;
+}
+
+.note:before {
+  position: absolute;
+  content: "";
+  width: 11px;
+  height: 11px;
+  left: 16px;
+  top: 18px;
+  border-radius: 10px;
+  background-image: url('../../../../public/images/sparkle.svg');
+  background-repeat: no-repeat;
+}
+
+.panNoTxt {
+  font-weight: 600;
+  font-size: 20px;
+  color: #191442;
+  margin: 24px 0;
+}
+
+.panNo{
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 28px;
+  margin: 16px 0;
+}
+
+.panCardBox { 
+  background: #e2deff;
+  border: 1px solid #afa9fc;
+  border-radius: 12px;
+  padding: 16px;
+  height: 168px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.panCardBox:after {
+  content: '';
+  position: absolute;
+  left: 8px;
+  top: 8px;
+  background: url('../../../../public/images/lavender_shine.svg') no-repeat top right;
+  width: 150px;
+  height: 90%;
+  z-index: 0;
+}
+
+.panCardBox .list {
+  margin-bottom: 12px;
+}
+.panCardBox .list:last-child {
+  margin-bottom: 0;
+}
+.panCardBox .list span {
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 16px;
+  color: #6b6874;
+}
+.panCardBox .list h4 {
+  font-weight: 600;
+  font-size: 14px;
+  margin-bottom: 0px;
+  margin-top: 5px;
+  color: #191442;
+}
+.notYourPan {
+  font-weight: 600;
+  font-size: 14px;
+  text-align: center;
+  color: #ff844b;
+  margin: 24px 0 16px;
+  display: block;
+  cursor:pointer;
+}
+
+.previewWrap .previewPanWrap{
+  height: auto;
+  padding-top: 80px;
+}
+
+.panLogo{
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: space-between;
+  align-items: flex-start;
+}

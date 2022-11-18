@@ -1,0 +1,277 @@
+@value orangeColor: #ff844b;
+
+.formContainer {
+  max-width: 388px;
+  margin: 20px auto;
+}
+
+.card {
+  background: #f8f8f8;
+  border-radius: 12px;
+}
+
+.container__list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+.listItem{
+  display: flex;
+  gap: 16px;
+  padding: 16px;
+  border-bottom: 1px solid #e0dfe7;
+  position: relative;
+}
+
+.listItem:last-child {
+  border-bottom: 0;
+}
+.key {
+  min-width: 87px;
+
+  height: 15px;
+
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+
+  /* Neutrals/Labels */
+  color: #6b6874;
+}
+
+.value {
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 15px;
+  min-width: 188px;
+  color: #191442;
+  /* white-space: nowrap; */
+  /* overflow: hidden; */
+  /* text-overflow: ellipsis; */
+  min-width: 150px;
+  max-width: 185px;
+}
+
+.listItemDiv {
+  padding: 12px;
+}
+
+.outer_div {
+  display: flex;
+}
+
+.btn {
+  color: orangeColor;
+  background: none;
+  border: none;
+  position: absolute;
+  right: 25px;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.editArrow{
+  display: inline-block;
+  top: 0px;
+  position: relative;
+  font-size: 10px;
+  padding-left: 10px;
+}
+
+.kraHead {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 140%;
+  color: #191442;
+}
+
+.kraSubtitle {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 140%;
+  color: #6b6874;
+  margin-top: 8px;
+  margin-bottom: 24px;
+}
+
+.uploadTitle {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 140%;
+  color: #191442;
+}
+.uploadSubtitle {
+  font-size: 14px;
+}
+.note {
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 16px;
+  list-style: none;
+  padding: 0%;
+  color: #5c5968;
+  background: linear-gradient(180deg, #F8F8F8 0%, rgba(248, 248, 248, 0) 100%);
+  border-radius: 12px;
+  padding: 16px;
+}
+.note li {
+  position: relative;
+}
+
+.note li::after {
+  content: "";
+  background-color: #7260e2;
+  border-radius: 100%;
+  font-weight: bold;
+  width: 8px;
+  height: 8px;
+  display: inline-block;
+  margin-left: -25px;
+  margin-right: 5px;
+  position: absolute;
+    left: 28px;
+    top: 3px;
+}
+
+.note li {
+  padding-left: 25px;
+}
+
+.skip {
+  display: flex;
+  margin-top: 16px;
+  justify-content: center;
+  margin-top: 16px;
+}
+.SliderTip {
+  font-size: 11px;
+  line-height: 16px;
+  color: #5c5968;
+  padding: 16px 16px 16px 34px;
+  background: linear-gradient(180deg, #f8f8f8 0%, rgba(248, 248, 248, 0) 100%);
+  border-radius: 12px;
+  position: relative;
+}
+.SliderTip::after {
+  content: "";
+  background: #7260e2;
+  width: 8px;
+  height: 8px;
+  position: absolute;
+  left: 17px;
+  top: 19px;
+  border-radius: 50%;
+}
+.retry {
+  display: flex;
+  justify-content: center;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 140%;
+  color: orangeColor;
+  margin-top: 16px;
+}
+
+.clearInpt{
+  position: absolute;
+  right: 25px;
+  top: 36px;
+  font-size: 20px;
+  color: #666;
+  font-weight: normal;
+  cursor: pointer;
+  transition: all 0.4s ease;
+  line-height: 0;
+}
+.clearInpt:hover{
+  color: #191442;
+}  
+.fatherNameEdit{
+  padding: 2px 5px 0;
+    font-size: 14px;
+    line-height: 18px;
+    height: 27px;
+    background: #fff;
+    text-transform: uppercase;
+    margin-bottom: 0;
+    border-radius: 5px;
+    position: absolute;
+    margin-top: -6px;
+    z-index: 1;
+    max-width: 143px;
+
+}
+.btnCancel , .btnSave{
+  width: auto;
+  position: absolute;
+  top: 17px;
+}
+
+.btnCancel{
+  background: #666;
+  width: auto;
+  color: #fff;
+  border-radius: 5px;
+  height: 19px;
+  width: 21px;
+  font-size: 17px;
+  font-weight: normal;
+  text-align: center;
+  right: 6px;
+  top: 15px;
+  transition: all 0.4s ease;
+}
+.btnCancel:hover{
+  background: #000;
+}
+.btnSave{
+  right: 25px;
+}
+
+.lblFatherName{
+  width: 150px;
+  text-transform: uppercase;
+    white-space: nowrap;
+  overflow: hidden;
+ text-overflow: ellipsis;
+}
+
+@media screen and (max-width: 767px) {
+  .value {
+    width: 100%;
+  }
+  .listItem .outer_div{
+    position: relative;
+    flex-direction: column;
+  }
+  .listItem .outer_div .lblFatherName,
+  .listItem .outer_div .fatherNameEdit{
+    margin-bottom: 10px;
+  }
+  .listItem .outer_div .lblFatherName{
+    white-space: inherit;
+    overflow: inherit;
+    text-overflow: inherit;
+    max-width: 100%;
+    width: 100%;
+    word-break: break-all;
+  }
+
+  .listItem .outer_div .fatherNameEdit{
+    position: relative;
+  }
+  .listItem .outer_div .btn {
+    position: relative;
+    display: inline-flex;
+    top: 0;
+    left: -5px;
+    right: auto;
+    text-align: left;
+  }
+  
+  .btnCancel{
+    position: absolute !important;
+    left: 64px !important;
+    top: 28px !important;
+  }
+}

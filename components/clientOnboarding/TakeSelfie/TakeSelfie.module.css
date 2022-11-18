@@ -1,0 +1,140 @@
+.RememberList{
+    background: #F8F8F8;
+    border-radius: 12px;
+    padding: 20px 16px 0 20px;
+    display: flex;
+    flex-flow: column;
+    margin-bottom: 17px;
+}
+
+.steps{
+    display: flex;
+    flex-wrap: nowrap;
+    margin-bottom: 20px;
+    align-items: center;
+}
+.stepsIcon{
+    display: inline-flex;
+    height: 32px;
+    width: 32px;
+    border-radius: 8px;
+    background: #E2DEFF;
+    color:#5C42BD;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    margin-right: 16px;
+}
+.stepText{
+    font-size: 14px;
+    line-height: 20px;
+    color: #6B6874;
+    margin: 0;
+    flex:1;
+}
+.ListTitle{
+    font-size: 16px;
+    line-height: 22px;
+    margin: 0 0 24px 0;
+    color: #191442;
+}
+.uploadBoxWrap{
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 16px;
+}
+.UploadBox{
+    border:2px dashed #7260E2;
+    border-radius: 12px;
+    height: 152px;
+    background: #E2DEFF;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-flow: column;
+    cursor: pointer;
+    overflow: hidden;
+    position: relative;
+    padding: 0;
+}
+.UploadBox[disabled]{
+    background: #F8F8F8;
+    border: 1px dashed #E2DEFF;
+    cursor: not-allowed;
+    
+}
+.UploadBox[disabled] .icon{
+    color: #B0ADBE;
+}
+
+.icon{
+    font-size: 18px;
+    color: #191442;
+}
+.uploadBoxText{
+    font-size: 14px;
+    line-height: 19.6px;
+    margin: 19px 0 0;
+    width: 80px;
+    text-align: center;
+}
+.whitebg{
+    position: relative;
+}
+.whitebg::after{
+    content: "";
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, .9) 55%);
+    height: 55px;
+    width: 100%;
+    position: absolute;
+    top: -20px;
+    left: 0;
+    z-index: -1;
+}
+.aadhaarImg{
+    width: 100%;
+}
+.editAadhaar{
+    width: 40px;
+    height: 40px;
+    border-radius: 8px;
+    background: #FF844B;
+    box-shadow: 0px 4px 8px -2px rgba(45, 43, 64, 0.16);
+    position:absolute;
+    top: 8px;
+    right: 8px;
+    border: 0;
+    outline: none;
+    cursor: pointer;
+    font-size: 18px;
+    color: #fff;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.link{
+    font-size: 14px;
+    line-height: 19.6px;
+    font-weight: 600;
+    color: #FF844B;
+    text-align: center;
+    margin-top: 16px;
+    display: block;
+    border: none;
+    outline: none;
+    background: none;
+    margin-left: auto;
+    margin-right: auto;
+     
+  }
+  .info{
+    color: #6B6874;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    margin: 0;
+  }
+

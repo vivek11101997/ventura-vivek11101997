@@ -1,0 +1,75 @@
+.subTitle{
+    color: #191442;
+    font-weight: 600;
+    font-size: 16px;
+    margin-top: 40px;
+}
+
+.subPara{
+    color: #6B6874;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.chkSegment{
+    background: #F8F8F8;
+    border-radius: 12px;
+    padding: 10px 16px;
+    display: flex;
+    position: relative;
+}
+
+.chkSegment .title{    
+    font-weight: 600;
+    font-size: 16px;
+    color: #191442;
+    padding-top: 12px;
+    padding-left: 12px;
+    font-weight: 600;
+}
+
+.chkSegment .iconWrap{
+    display: block;
+    height: 40px;
+    width: 40px;
+
+    border-radius: 50%;
+    line-height: 47px;
+    text-align: center;
+}
+.chkSegment .iconWrap span{
+    font-size: 20px;
+}
+
+.chkSegment.typeEquity .iconWrap{
+    background: #41C977;
+}
+.defaultsegments > div:last-child .iconWrap{
+    background: #7260E2;
+}
+.chkSegment.typeFutureOption .iconWrap{
+    background: #2F2F6B;
+}
+
+.chkSegment label{
+    position: absolute;
+    right: 0;
+    top: 20px;
+    right: 5px;
+}
+.chkSegment.typeEquity label,
+.chkSegment.typeMutualFund label{
+    opacity: 0.48;
+}
+
+.chkSegment.typeFutureOption label:before{
+    border-color: #E0DFE7;
+}
+.chkSegment.typeFutureOption input:checked + label:before{
+    border-color: #41C977;
+}
+	.errorMsg{
+    text-align: center;
+    color: #FF524B;
+}

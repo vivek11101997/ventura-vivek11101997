@@ -1,0 +1,240 @@
+.leftBg {
+  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#ff844b+0,ffa880+100 */
+  background: #ff844b; /* Old browsers */
+  background: -moz-linear-gradient(
+    top,
+    #ff844b 0%,
+    #ffa880 100%
+  ); /* FF3.6-15 */
+  background: -webkit-linear-gradient(
+    top,
+    #ff844b 0%,
+    #ffa880 100%
+  ); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(
+    to bottom,
+    #ff844b 0%,
+    #ffa880 100%
+  ); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff844b', endColorstr='#ffa880',GradientType=0 ); /* IE6-9 */
+}
+.fullHeight {
+  min-height: 100vh;
+}
+.signUpBox {
+  background: #ffffff;
+  border: 1px solid #e0dfe7;
+  box-shadow: 0px 4px 16px -8px rgb(45 43 64 / 12%);
+  border-radius: 24px;
+  max-width: 490px;
+  margin: 0px auto;
+  position: relative;
+  padding: 48px;
+  min-height: 480px;
+  transition: all 0.3s ease-in;
+}
+
+.lineBg {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+.gmail {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 13px 15px;
+}
+.gmail img {
+  margin-right: 15px;
+}
+
+.lineBgBottom {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  z-index: 0;
+}
+
+.signUpBox form {
+  position: relative;
+  z-index: 9;
+}
+
+.form_wrap {
+  position: relative;
+  z-index: 9;
+}
+
+.logo {
+  margin-bottom: 40px;
+  position: relative;
+  z-index: 9;
+  margin-left: auto;
+  display: block;
+  height: 39px;
+  width: 230px;
+}
+.logo.logoDesk{
+margin-left: unset;
+}
+.btnTp{
+margin-top: 35px;
+}
+.signUpBox h3 {
+  /* font-size: 24px;
+  color: #191442;
+  font-weight: 600;
+  margin: 0 0 8px 0; */
+}
+.signUpBox p.subTitle {
+  /* color: #6b6874;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22.4px;
+  margin-bottom: 0; */
+}
+.signUpBox input {
+  /* margin-top: 24px; */
+}
+.haveAnAccount {
+  color: #191442;
+  font-size: 14px;
+  text-align: center;
+  margin-top: 16px;
+}
+.haveAnAccount a {
+  color: #f47a44;
+  font-family: "sorabold";
+  padding-left: 3px;
+}
+.termsOfUse {
+  font-size: 11px;
+  color: #b0adbe;
+  text-align: center;
+  line-height: 16px;
+  margin-bottom: 0;
+  margin-top: 30px;
+}
+.termsOfUse a {
+  color: #5c5968;
+  font-weight: bold;
+}
+
+/* Left Component css Start */
+.landingCarousel {
+  text-align: center;
+  margin-top: 0px;
+}
+
+.landingSlides {
+  padding: 0 70px;
+  outline: none !important;
+}
+
+.landingSlides p {
+  font-size: 16px;
+  color: white;
+  font-weight: 300;
+  margin-top: 5px;
+  margin-bottom: 0px;
+  font-family: "soralight";
+  padding: 0 58px;
+  line-height: 23px;
+}
+
+.landingSlides h3 {
+  font-size: 36px;
+  color: white;
+  font-weight: 600;
+  line-height: 46px;
+  margin-bottom: 12px;
+  margin-top: 22px;
+}
+.landingSlides img.thumb {
+  display: block;
+  margin: 0 auto;
+  max-width: 250px;
+}
+.downloadApp img {
+  width: 134px;
+  height: 44px;
+  margin: 0 12px;
+}
+
+.or {
+  text-align: center;
+  color: #b0adbe;
+  font-size: 11px;
+  margin: 15px 0 0 0;
+}
+/* Landscape tablets and medium desktops */
+@media (min-width: 992px) and (max-width: 1199px) {
+}
+
+/* Portrait tablets and small desktops */
+@media (min-width: 768px) and (max-width: 991px) {
+  .signUpContent {
+    margin: 0 20px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .lineBg,
+  .lineBgBottom{
+    display: none;
+  }
+  .landingSlides {
+    padding: 0 0px;
+    margin-top: 40px;
+  }
+  .landingSlides img.thumb {
+    max-width: 220px;
+  }
+  .landingSlides h3 {
+    font-size: 24px;
+    line-height: 36px;
+  }
+  .landingSlides p {
+    font-size: 14px;
+    line-height: 18px;
+  }
+  .downloadApp {
+    display: none;
+  }
+  .signUpContent {
+    max-width: 100%;
+    margin: 30px 15px 30px;
+    padding: 40px 20px;
+  }
+}
+
+@media (max-width: 767px) {
+  .fullHeight .align-items-center{
+    align-items: flex-start !important;
+  }
+  .signUpBox{
+    border-radius: 24px 24px 0 0;
+    margin-top: 56px;
+    border: none;
+    padding: 48px 20px;
+  }
+  .signUpBox:before{
+    content: '';
+    position: absolute;
+    height: 100px;
+    width: 100%;
+    background: #FF844B;
+    left: 0;
+    z-index: -1;
+    top: -56px;
+  }
+  .leftBg {
+    padding: 20px;
+    min-height: 100vh;
+  }
+
+  .logoDesk{
+    display: none;
+  }
+}

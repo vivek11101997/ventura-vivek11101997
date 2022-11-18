@@ -1,0 +1,156 @@
+.FileBox{
+    background: #F8F8F8;
+    border-radius: 12px;
+    border: 2px dashed #7260E2;
+    margin-bottom: 32px;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding:64px 15px 62px;
+}
+.titleText{
+    font-size: 20px;
+    line-height: 26px;
+    font-weight: 600;
+    margin: 19px 0 8px 0;
+}
+.InfoText{
+    font-size: 14px;
+    line-height: 19.6px;
+    color: #6B6874;
+    margin: 0;
+}
+.ErrorInfoText{
+    font-size: 14px;
+    line-height: 19.6px;
+    color: #f00;
+    margin: 0;
+}
+.Browse{
+    color: #FF844B;
+    cursor: pointer;
+    background: none;
+    border: 0;
+    outline: none;
+    font-size: 20px;
+    line-height: 26px;
+    font-weight: 600;
+    padding: 0;
+}
+
+.BrowseInput{
+    display: none;
+}
+
+.orupload{
+    background: #E0DFE7;
+    position: relative;
+    height: 1px;
+    margin-bottom: 32px;
+}
+.orupload .spanText{
+    font-weight: 400;
+    font-size: 12px;
+    line-height:1;
+    color: #6B6874;
+    background-color: #FFFFFF;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    padding: 0 16px;
+}
+.Others{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:32px;
+    margin-bottom: 20px;
+}
+
+.tablist{
+    display: inline-flex;
+    justify-content: center;
+    border: 1px solid #E0DFE7;
+    border-radius: 8px;
+    padding: 0;
+    margin: 0 auto 24px;
+}
+.tabs{
+    list-style: none;
+}
+.tabwrap{
+    text-align: center;
+}
+.SignBox{
+    border: 2px dashed #41C977;
+    background: #fff;
+    border-radius: 12px;
+    height: 212px;
+    position: relative;
+    margin-bottom: 17px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+}
+.resetSignature{
+    position: absolute;
+    bottom: 16px;
+    right: 15px;
+    padding: 0;
+    border: none;
+    outline: none;
+    box-shadow: 0px 4px 8px -2px rgba(45, 43, 64, 0.16);
+    border-radius: 8px;
+    background: none;
+    display: inline-flex;
+    cursor: pointer;
+}
+.btnWrap{
+    width: 100%;
+    max-width: 388px;
+    margin: 0 auto;
+}
+.dropzone{
+    width: 100%;
+}
+.SignBoxFrame{
+    height: 116px;
+    width: 262px;
+}
+.SignBoxImg{
+    height: 116px;
+    width:auto;
+    max-width: 100%;
+}
+.lookingDiff{
+    text-align: center;
+    color: #191442;
+    font-size: 14px;
+    margin-bottom: 17px;
+}
+.UploadPhoto{
+    color: #f47a44;
+    font-family: "sorabold";
+}
+.sigCanvas{
+    width: 100%;
+}
+
+@media screen and (max-width:767px) {
+    .tablist{
+        width: 100%;
+    }
+    .tabs{
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .SignBox canvas{
+        width: 100%;
+    }
+}

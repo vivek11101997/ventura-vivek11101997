@@ -1,0 +1,134 @@
+.formContainer{
+  max-width: 388px;
+  margin: 20px auto;
+}
+.sliderWrap{
+  padding:0 15px;
+}
+.guardContainerBox{
+  background: #FFFFFF;
+  border: 1px solid #E0DFE7;
+  border-radius: 12px;
+  padding: 20px 16px;
+}
+.guardTitle{
+  font-weight: 600;
+font-size: 16px;
+line-height: 140%;
+
+color: #191442;
+}
+.txtarea { resize: none; }
+.sliderNumWrap{
+  display: flex;
+  padding: 0;
+  justify-content: space-between;
+  margin: 0 0 8px 10px;
+}
+
+.sliderNumWrap .sliderNum{
+  list-style: none;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 16px;
+  text-align: center;
+  color: #B0ADBE;
+}
+
+.error
+{
+  font-size: 11px;
+    color: #ff524b;
+    position: absolute;
+    bottom: 6px; 
+}
+
+.nomineesWrap{
+  display: flex;
+  justify-content: center;
+  padding: 0;
+  margin: 0 0 12px 0;
+}
+.nomineesWrap .nominees{
+  list-style: none;
+  flex: 1;
+}
+
+
+
+.nomineesWrap .nominees:nth-child(3){
+  text-align: right!important;
+}
+.nomineesWrap .nominees:last-child{
+  text-align: right;
+}
+.nomineesWrap .nominees:first-child{
+  text-align: left;
+}
+
+.nomineesWrap .nominees:only-child{
+  text-align: center;
+}
+
+.nomineesWrap  .perOrange{
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 15px;
+  margin: 0 0 4px 0;
+  color: #FF844B;
+}
+.nomineesWrap  .perBlue{
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 15px;
+  margin: 0 0 4px 0;
+  color: #7260E2;
+}
+.nomineesWrap  .perGreen{
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 15px;
+  margin: 0 0 4px 0;
+  color: #41C977;
+}
+
+.nomineesWrap  .nomineeNum{
+  font-style: normal;
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 16px;
+  margin: 0;
+  color: #B0ADBE;
+}
+.sliderTip{
+  font-size: 11px;
+  line-height: 16px;
+  color: #5C5968;
+  padding: 16px 16px 16px 34px;
+  background: linear-gradient(180deg, #F8F8F8 0%, rgba(248, 248, 248, 0) 100%);
+  border-radius: 12px;
+  position: relative;
+}
+.sliderTip::after{
+  content: "";
+  background: #7260E2;
+  width: 8px;
+  height: 8px;
+  position: absolute;
+  left:17px;
+  top:19px;
+  border-radius: 50%;
+}
+.sliderTip strong{
+  font-size: 12px;
+  line-height: 16px;
+}
+.inputWrap{
+  display: flex;
+  flex-flow: column;
+  position: relative;
+}

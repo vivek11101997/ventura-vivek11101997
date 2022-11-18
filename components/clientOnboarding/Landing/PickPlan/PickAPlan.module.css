@@ -1,0 +1,61 @@
+.plans .plan input[type="radio"] {
+  position: absolute;
+  opacity: 0;
+}
+
+.plans .plan {
+  cursor: pointer;
+  display: block;
+  margin-bottom: 16px;
+}
+
+.plans .plan .planContent img {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+.plans .plan .planContent {
+  background: #f8f8f8;
+  border-radius: 12px;
+  position: relative;
+  padding: 20px 16px;
+  border: 1px solid transparent;
+}
+
+.plans .plan .planDetails p {
+  font-weight: 400;
+  font-size: 14px;
+  margin-bottom: 24px;
+  color: #191442;
+  line-height:20px;
+}
+.plans .plan .planDetails .amount{
+  color: #191442;font-weight: 600;
+  font-size: 20px;
+}
+.plans .plan .planDetails h4 {
+  color: #191442;
+  font-weight: 600;
+  font-size: 20px;
+  margin: 5px 0 15px;
+}
+
+.plans .plan input[type="radio"]:checked + .planContent:after {
+  content: "";
+  position: absolute;
+  height: 8px;
+  width: 8px;
+  background: #216fe0;
+  right: 20px;
+  top: 20px;
+  border-radius: 100%;
+  border: 3px solid #fff;
+  -webkit-box-shadow: 0px 0px 0px 2px #0066ff;
+  box-shadow: 0px 0px 0px 2px #0066ff;
+}
+
+.plans .plan input[type="radio"]:checked + .planContent {
+  background: #effff5;
+  /* transition: ease-in 0.3s; */
+  border: 1px solid #bbffd6;
+}

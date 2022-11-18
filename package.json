@@ -1,0 +1,56 @@
+{
+  "name": "ventura",
+  "version": "0.1.0",
+  "private": true,
+  "homepage": ".",
+  "cacheDirectories": [
+    ".next/cache"
+  ],
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build ",
+    "start": "next build && next start",
+    "lint": "next lint",
+    "export": "next export"
+  },
+  "dependencies": {
+    "@fingerprintjs/fingerprintjs-pro-react": "^1.5.0",
+    "@hookform/resolvers": "^2.9.8",
+    "@reduxjs/toolkit": "^1.8.5",
+    "axios": "^0.27.2",
+    "cls": "^0.1.5",
+    "crypto-js": "^4.1.1",
+    "firebase": "^9.10.0",
+    "flagsmith": "^3.10.1",
+    "googleapis": "^108.0.1",
+    "immer": "^9.0.15",
+    "moment": "^2.29.4",
+    "next": "12.2.5",
+    "qrcode": "^1.5.1",
+    "ramda": "^0.28.0",
+    "react": "18.2.0",
+    "react-cropper": "^2.1.8",
+    "react-datepicker": "^4.8.0",
+    "react-dom": "18.2.0",
+    "react-dropbox-chooser": "^0.0.5",
+    "react-dropzone": "^14.2.2",
+    "react-firebase-hooks": "^5.0.3",
+    "react-google-drive-picker": "^1.2.0",
+    "react-hook-form": "^7.34.2",
+    "react-redux": "^8.0.2",
+    "react-signature-canvas": "^1.0.6",
+    "react-slick": "^0.29.0",
+    "react-slider": "^2.0.4",
+    "react-text-mask": "^5.5.0",
+    "react-webcam": "^7.0.1",
+    "redux-logger": "^3.0.6",
+    "redux-thunk": "^2.4.1",
+    "slick-carousel": "^1.8.1",
+    "text-mask-addons": "^3.8.0",
+    "yup": "^0.32.11"
+  },
+  "devDependencies": {
+    "eslint": "^8.23.0",
+    "eslint-config-next": "^12.3.1"
+  }
+}

@@ -1,0 +1,151 @@
+.AuthenticatorApp {
+  margin-top: 48px;
+}
+
+.qcBox {
+  background: #ffffff;
+  padding: 40px;
+  border: 1px solid #e0dfe7;
+  box-shadow: 0px 4px 16px -8px rgba(45, 43, 64, 0.12);
+  border-radius: 12px;
+  margin-top: 24px;
+  
+}
+.qr {
+  width: 144px;
+  height: 144px;
+  margin: 0 auto;
+  position: relative;
+  margin: 0 auto;
+  position: relative;
+  text-align: center;
+  display: flex;
+  align-items: center;
+}
+.qr:before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 144px;
+  height: 144px;
+  background: url(../../../public/images/qr_code_frame.svg) no-repeat 0 0;
+  background-size: 100%;
+}
+.qrcodeCanvas{
+  margin: auto;
+}
+.qcBox p {
+  font-weight: 400;
+  font-size: 14px;
+  text-align: center;
+  color: #6b6874;
+}
+.qcBox input{
+  width: 200px;
+  margin-bottom: 0;
+  font-size: 14px;
+}
+.qrCont {
+  margin-right: 65px;
+  position: relative;
+}
+.qrCont::before{
+  content: '';
+  position: absolute;
+  right: -32px;
+  height: 100%;
+  width: 1px;
+  background-color: #E0DFE7;
+  top: 0;
+ 
+}
+.qrCont::after{
+  content: 'OR';
+  position: absolute;
+  right: -44px;
+  width: auto;
+  top: 50%;
+  background-color: #ffffff;
+  padding: 18px 0;
+  transform: translateY(-50%);
+  color: #6B6874;
+}
+.minTitle{
+  font-weight: 400;
+font-size: 12px;
+line-height: 15px;
+color: #6B6874;
+display: block;
+margin-bottom: 8px;
+}
+.copy{
+  padding: 12px 12px 12px 13px;
+  width: 48px;
+  height: 48px;
+  background: #FF844B;
+  border-radius: 12px;
+  color: white;
+  text-align: center;
+  font-size: 22px;
+  margin-left: 12px;
+  position: relative;
+}
+
+.AuthenticatorApp .btnWrap{
+  text-align: center;
+  margin-top: 20px;
+}
+.AuthenticatorApp .btnWrap .btnCont{
+  width: 388px;
+  
+}
+
+@media screen and (max-width: 767px) {
+  .AuthenticatorApp .btnWrap {
+    padding-bottom: 20px;
+  }
+  .AuthenticatorApp .btnWrap .btnCont{
+    width: 100%;
+  }
+  .qrCont{
+    margin-right: 0;
+  } 
+  .qrCont .qr{
+    margin-bottom: 50px;
+  }
+
+  .qrCont:before{
+    height: 1px;
+    width: 100%;
+    background-color: #E0DFE7;
+    top: auto;
+    bottom: 40px;
+    left: 0;
+    right: 0;
+    margin: auto;
+  }
+  .qrCont:after{
+    right: 0;
+    top: auto;
+    padding: 0;
+    transform:none;
+    color: #6B6874;
+    left: 0;
+    bottom: 30px;
+    width: 50px;
+    text-align: center;
+    margin: auto;
+  }
+  .qcBox{
+    padding: 25px;
+    text-align: center;
+  }
+  .qcBox .itemCenter{
+    align-items: center !important;
+    display: inline-block;
+  }
+  .minTitle{
+    text-align: center;
+  }
+}

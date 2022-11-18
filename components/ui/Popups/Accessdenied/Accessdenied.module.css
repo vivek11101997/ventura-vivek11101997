@@ -1,0 +1,33 @@
+.uploadPhotoWrap{
+    margin-top: 16px;
+}
+.popSubTitle{
+    color: #6b6874;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-top: 10px;
+    margin-bottom: 17px;
+}
+.UploadPhoto{
+    color: #f47a44;
+    font-family: sorabold;
+    font-size: 14px;
+    line-height: 140%;
+}
+.btnWrap{
+    width: 100%;
+    max-width: 388px;
+    margin: 0 auto;
+}
+.icon{
+    display: inline-block;
+    margin-bottom: 27.34px;
+}
+.uploadPhotop{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 140%;
+    color: #191442;
+    margin: 0;
+}

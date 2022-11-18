@@ -1,0 +1,161 @@
+.card{
+    background-color: #F8F8F8;
+    padding: 20px 16px;
+    border-radius: 12px;
+}
+
+.card.noPad{
+    padding: 0;
+}
+
+.cardHeader{
+    height: 65px;
+    border-bottom: 1px solid #6B6874;
+    margin-bottom: 15px;
+}
+
+.cardBody{
+    padding: 0 16px;
+}
+
+.cardTitle{
+    font-size: 16px;
+    font-weight: 600;
+    margin: 0 0 24px;
+}
+
+.iconList{
+    list-style: none;
+    padding: 0;
+    margin-bottom: 0;
+}
+
+.iconList > li{
+    display: flex;
+    gap: 16px;
+    margin-bottom: 16px;
+    font-size: 14px;
+    color: #6B6874;
+    line-height: 140%;
+}
+.iconList > li:last-child{
+    margin: 0;
+}
+
+.iconList > li .iconListPic{
+    min-width: 32px;
+    width: 32px;
+    height: 32px;
+    background-color: #fff;
+    border: 1px solid #E0DFE7;
+    border-radius: 8px;
+    padding: 6px;
+}
+
+.my{
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
+.textPrimary{
+    color:  #FF844B;
+    font-weight: 600;
+    font-size: 14px;
+    text-align: center;
+    display: block;
+}
+
+.confirmDetailsList{
+    padding: 0 0 16px;
+    margin: 0; 
+    list-style-type: none;
+}
+
+.confirmDetailsList > li{
+    display: flex;
+    font-size: 12px;
+    color: #191442;
+    gap: 16px;
+    margin-bottom: 16px;
+    line-height: 140%;
+}
+
+.confirmDetailsList > li .label{
+    color: #6B6874;
+    width: 87px;
+    min-width: 87px;
+}
+
+.confirmDetailsList > li .data{
+    font-weight: 600;
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.confirmDetailsList > li .data .dataValue{
+    min-width: 188px;
+    width: 188px;
+}
+
+.editLink{
+    color: #FF844B;
+    font-weight: 600;
+    position: relative;
+    padding-right: 10px;
+    font-size: 11px;
+}
+
+.editLink:after{
+    content:'';
+    position: absolute;
+    top: 5px;
+    right: 0;
+    width: 4px;
+    height: 4px;
+    border: solid #FF844B;
+    border-width: 0 2px 2px 0;
+    transform: rotateZ(-45deg);
+}
+
+.PDetails{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 14px;
+    margin: 40px 0 24px;
+    line-height: 140%;
+}
+
+.PDetails .editLink{
+    margin-left: 16px;
+}
+.membersIcon{
+    margin-top:2px;
+}
+.PDetailsPic{
+    width: 48px;
+    height: 48px;
+    padding: 12px;
+    display: inline-block;
+    background-color: #FF844B;
+    border-radius: 100%;
+    margin-right: 16px;
+}
+
+/* Landscape tablets and medium desktops */
+@media (min-width: 992px) and (max-width: 1199px) {
+
+}
+
+/* Portrait tablets and small desktops */
+@media (min-width: 768px) and (max-width: 991px) {
+
+}
+
+/* Landscape phones and portrait tablets */
+@media (max-width: 767px) {
+    .confirmDetailsList > li .data .editLink{
+        left:-50px;
+    }
+}

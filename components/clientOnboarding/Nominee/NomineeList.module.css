@@ -1,0 +1,153 @@
+.formContainer,
+.nomineeCards {
+    max-width: 388px;
+    margin: 40px auto;
+}
+
+.datepickerContainer {
+    position: relative;
+}
+
+.datepickerContainer::after {
+    content: '';
+    position: absolute;
+    top: 12px;
+    right: 15px;
+    width: 24px;
+    height: 24px;
+    background: url(../../../public/images/calendar.svg) no-repeat;
+
+}
+
+.nomineeCard {
+    background-color: #EFFFF5;
+    border-radius: 12px;
+    margin-bottom: 16px;
+    width: 100%;
+    position: relative;
+    
+}
+.nomineeCard:after{
+    content: '';
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    background: url(../../../public/images/green_shine.svg) no-repeat top right;
+    width: 190px;
+    height: 90%;
+    z-index: 0;
+}
+
+.nomineeHeader,
+.nomineeBody {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+    padding: 20px 16px;
+    align-items: center;
+}
+
+.headLeft,
+.cardBodyLeft {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 66.666667%;
+    flex: 0 0 66.666667%;
+    max-width: 66.666667%;
+    padding: 0 15px;
+}
+
+.nomineeBody {
+    padding: 0 16px 20px;
+}
+
+.addressLabel {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 15px;
+    margin: 0;
+    color: #6B6874;
+    margin-bottom: 4px;
+}
+
+.nomineeBody .address {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 15px;
+    margin: 0;
+    word-break: break-all;
+}
+
+.headLeft p {
+    margin: 0;
+font-size: 12px;
+font-weight: 400;
+line-height: 15px;
+
+}
+
+.headRight, .cardBodyRight {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 33.333333%;
+    flex: 0 0 33.333333%;
+    max-width: 33.333333%;
+    padding: 0 15px;
+    text-align: right;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 45px;
+    color: #41C977;
+    position: relative;
+    z-index: 1;
+}
+
+.nomineeTitle {
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 22px;
+    margin: 0 0 4px;
+    word-break: break-all;
+}
+
+.nomineeFooter {
+    padding: 20px 0;
+    border-top: 1px solid #a3fbc6;
+    text-align: center;
+}
+
+.cardBodyRight{
+    text-align: right;
+}
+.cardBodyRight .editButton{
+    background-color: #FF844B;
+    border: 0;
+    padding: 10px 10px;
+    border-radius: 12px;
+    margin-left: auto;
+}
+
+.btnRemove {
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+    background-color: transparent;
+    border: 0;
+    color: #FF524B;
+    cursor: pointer
+}
+
+.previewWrap .previewNomineeCard{
+    width: 50%;
+}
+
+@media screen and (max-width: 767px) {
+    .headRight, .cardBodyRight {
+        font-size: 24px;
+    }
+    .nomineeCard:last-of-type {
+        margin-bottom: 0;
+    }
+}

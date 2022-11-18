@@ -1,0 +1,28 @@
+.bottomLabelInfo{
+  position: absolute;
+  bottom: 40px;
+  color: #B0ADBE;
+  font-weight: 400;
+  font-size: 11px;
+  text-align: center;
+  width: 100%;line-height: 18px;
+}
+@media screen and (max-height: 600px) and (orientation: landscape) {
+  .bottomLabelInfo{
+      position: relative;
+      margin-top: 30px;
+      bottom: 0;
+      padding-bottom: 20px;
+      margin-bottom: 0;
+  }
+}
+.bottomLabelInfo a{
+  color: #5C5968;
+  font-weight: 600;
+}
+.or {
+  text-align: center;
+  color: #b0adbe;
+  font-size: 11px;
+  margin: 15px 0 0 0;
+}

@@ -1,0 +1,235 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('./fonts/icomoon/icomoon.eot?xcqcrv');
+  src:  url('./fonts/icomoon/icomoon.eot?xcqcrv#iefix') format('embedded-opentype'),
+    url('./fonts/icomoon/icomoon.woff2?xcqcrv') format('woff2'),
+    url('./fonts/icomoon/icomoon.ttf?xcqcrv') format('truetype'),
+    url('./fonts/icomoon/icomoon.woff?xcqcrv') format('woff'),
+    url('./fonts/icomoon/icomoon.svg?xcqcrv#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-Access-denied:before {
+  content: "\e900";
+  color: #ff524b;
+}
+.icon-Arrow:before {
+  content: "\e901";
+}
+.icon-Asset-17:before {
+  content: "\e902";
+  color: #fff;
+}
+.icon-bank-details:before {
+  content: "\e903";
+  color: #41c977;
+}
+.icon-Bank:before {
+  content: "\e904";
+  color: #fff;
+}
+.icon-blocked:before {
+  content: "\e905";
+  color: #ff524b;
+}
+.icon-bright-area:before {
+  content: "\e906";
+  color: #5c42bd;
+}
+.icon-calendar:before {
+  content: "\e907";
+}
+.icon-camera:before {
+  content: "\e908";
+}
+.icon-clear-picture:before {
+  content: "\e909";
+  color: #5c42bd;
+}
+.icon-Close:before {
+  content: "\e90a";
+}
+.icon-Complete-your-e-KYC:before {
+  content: "\e90b";
+  color: #171441;
+}
+.icon-Confirm-its-you:before {
+  content: "\e90c";
+}
+.icon-Copy-Paste:before {
+  content: "\e90d";
+  color: #fff;
+}
+.icon-Demat-acctount:before {
+  content: "\e90e";
+  color: #5c42bd;
+}
+.icon-Done:before {
+  content: "\e90f";
+  color: #10b349;
+}
+.icon-Edit:before {
+  content: "\e910";
+  color: #fff;
+}
+.icon-Equity:before {
+  content: "\e911";
+  color: #fff;
+}
+.icon-eSign-and-Login:before {
+  content: "\e912";
+}
+.icon-face:before {
+  content: "\e913";
+  color: #5c42bd;
+}
+.icon-Form-16:before {
+  content: "\e914";
+  color: #5c42bd;
+}
+.icon-Futures-and-Options:before {
+  content: "\e915";
+  color: #fff;
+}
+.icon-Glass:before {
+  content: "\e916";
+  color: #5c42bd;
+}
+.icon-Image:before {
+  content: "\e917";
+  color: #5c42bd;
+}
+.icon-ITR:before {
+  content: "\e918";
+  color: #5c42bd;
+}
+.icon-Link-your-bank-account:before {
+  content: "\e919";
+}
+.icon-Loading:before {
+  content: "\e91a";
+  color: #10b349;
+}
+.icon-location:before {
+  content: "\e91b";
+  color: #10b349;
+}
+.icon-Mutual-Funds:before {
+  content: "\e91c";
+  color: #fff;
+}
+.icon-Payment-Successful:before {
+  content: "\e91d";
+  color: #fff;
+}
+.icon-percentage:before {
+  content: "\e91e";
+  color: #fff;
+}
+.icon-Plus:before {
+  content: "\e91f";
+}
+.icon-question:before {
+  content: "\e920";
+  color: #7260e2;
+}
+.icon-Salary-slip:before {
+  content: "\e921";
+  color: #5c42bd;
+}
+.icon-Scan:before {
+  content: "\e922";
+  color: #ff844b;
+}
+.icon-Set-up-your-profile:before {
+  content: "\e923";
+}
+.icon-setting-up:before {
+  content: "\e924";
+}
+.icon-Signature-Aadhaar-PAN:before {
+  content: "\e925";
+  color: #5c42bd;
+}
+.icon-Signature-box:before {
+  content: "\e926";
+  color: #5c42bd;
+}
+.icon-successfully:before {
+  content: "\e927";
+  color: #10b349;
+}
+.icon-Tick:before {
+  content: "\e928";
+  color: #fff;
+}
+.icon-unblocked:before {
+  content: "\e929";
+  color: #10b349;
+}
+.icon-Upload-photo:before {
+  content: "\e92a";
+  color: #7260e2;
+}
+.icon-uploading-photo:before {
+  content: "\e92b";
+  color: #5c42bd;
+}
+.icon-verification-failed:before {
+  content: "\e92c";
+  color: #fff;
+}
+.icon-0:before {
+  content: "\e904";
+  color: #5c42bd;
+}
+.icon-1:before {
+  content: "\e921";
+  color: #5c42bd;
+}
+.icon-2:before {
+  content: "\e914";
+  color: #5c42bd;
+}
+.icon-3:before {
+  content: "\e918";
+  color: #5c42bd;
+}
+.icon-4:before {
+  content: "\e90e";
+  color: #5c42bd;
+}
+
+.icon-preview-segment-0:before {
+  content: "\e921";
+  color: #5c42bd;
+}
+.icon-preview-segment-1:before {
+  content: "\e914";
+  color: #5c42bd;
+}
+.icon-preview-segment-2:before {
+  content: "\e918";
+  color: #5c42bd;
+}
+.icon-preview-segment-3:before {
+  content: "\e90e";
+  color: #5c42bd;
+}
